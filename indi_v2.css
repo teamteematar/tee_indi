@@ -1,0 +1,328 @@
+
+h2
+{
+  letter-spacing: 2px;
+  padding: 30px;
+  text-align: center !important;
+  font-family: 'Comfortaa', cursive !important;
+}
+h4 , h5
+{
+  font-family: 'Comfortaa', cursive !important;
+}
+.nodecoration
+{
+    text-decoration: none !important;
+}
+.default
+{
+  margin-top: 50px;
+}
+
+.lrpadding
+{
+  padding-left:70px ;
+  padding-right:70px ;
+}
+.pad
+{
+  padding-top: 25px !important;
+  padding-bottom: 10px !important;
+}
+
+.dmargin
+{
+  padding-top: 30px;
+  padding-bottom: 100px !important;
+}
+.white
+{
+  color: #fff !important;
+}
+.black
+{
+  color: #000 !important;
+}
+.red
+{
+  color: #b30000 !important;
+}
+.teal
+{
+  color:#999999;
+}
+.teal1
+{
+  color: #4d4d4d;
+}
+.no
+{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+i
+{
+  font-size: 35px !important;
+  margin: 5px;
+}
+#taste
+{
+  color: #FF5B99;
+}
+#fun
+{
+  color: #FF5B99;
+}
+#feel
+{
+  color: #FF5B99;
+}
+#music
+{
+  color:#FF5B99;
+}
+#ttl
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Comfortaa', cursive;
+}
+/* nav bar*/
+.navbar
+{
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.jumbotron
+{
+  background-image: url("./images/wow4.jpg");
+  height:-webkit-fill-available!important;
+  width: -webkit-fill-available!important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  position: relative;
+  border-radius: 0px !important;
+}
+#title2
+{
+  color: #fff !important;
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-family: 'Comfortaa', cursive !important;
+
+}
+#title
+{
+  color: #fff !important;
+  padding-top: 250px ;
+  letter-spacing: 1px;
+  font-size: 130px;
+  font-family: 'Great Vibes', cursive;
+}
+
+.txt
+{
+  text-align: center;
+  letter-spacing: 1px;
+}
+#txt1
+{
+  color: #737373;
+}
+.abt
+{
+  font-size: 15px;
+  height: 300px;
+  margin-top: 50px;
+  text-align: center;
+}
+.bg-teal
+{
+  background-color: #e6ffff !important;
+}
+.bg-black
+{
+  background-color: #000;
+  color: #fff;
+}
+.come
+{
+  background-image: url("./images/come.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+#comesvg
+{
+  color: #fff;
+}
+.indulge
+{
+
+}
+.wheel
+{
+  /*background-image: url("./images/wheel.png");*/
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.txt_booking
+{
+  font-family: 'Fredericka the Great', cursive !important;
+}
+.txt-pad
+{
+  padding-top: 150px;
+}
+.sponcer
+{
+  background-color: #fff;
+  color: #000 !important;
+}
+.spn
+{
+  height: 200px;
+}
+#spon
+{
+  margin-top: 45px;
+  height: 70px;
+}
+.founder
+{
+  /*background-image: url("./images/f1.jpg");*/
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  color: #000;
+  letter-spacing: 1px;
+}
+#word
+{
+  padding-bottom: 20px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.contact
+{
+  padding-top: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 30px;
+}
+.asso
+{
+  background-color: #000;
+  color: #fff;
+}
+.ass
+{
+  padding: 40px;
+}
+footer
+{
+	background-color: #000 !important;
+	height: 100px;
+	width:100%;
+}
+.fa
+{
+	  background-color: #000;
+	  color: #fff;
+    margin-top: 40px;
+    font-size: 30px !important;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover
+{
+    text-decoration: none;
+    opacity: 0.7;
+}
+.tee
+{
+	background-color: #000;
+}
+#tee
+{
+	  padding: 0px !important;
+	  background-color: #000;
+	  color: #fff;
+    margin-top: 15px;
+    font-size: 30px !important;
+    height: 70px;
+    width: 120px;
+}
+#te
+{
+	position: inline;
+	padding: 0px !important;
+	color: #fff;
+  float: right;
+}
+
+
+
+/*Screen Behavior*/
+@media screen and (max-width: 768px)
+  {
+    .lrpadding
+    {
+      padding-left:30px ;
+      padding-right:30px ;
+    }
+    .navbar
+    {
+      text-align: center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      opacity: 1;
+    }
+    .jumbotron
+    {
+      height:-webkit-fill-available!important;
+      width: -webkit-fill-available!important;
+    }
+    #title2
+    {
+      font-size: 40px;
+    }
+    #title
+    {
+      padding-top: 120px;
+      font-size: 90px;
+    }
+    .txt
+    {
+      text-align: center;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .contact
+    {
+      padding-top: 15px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 10px;
+    }
+    .abt
+    {
+      height: 200px;
+      font-size: 15px;
+      margin-top: 50px;
+      text-align: center;
+    }
+    .wheel
+    {
+      height: 350px;
+    }
+    .txt-pad
+    {
+      padding-top: 50px;
+    }
+  }

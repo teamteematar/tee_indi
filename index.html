@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <title>The Indulge Festival | Multi Dimensional Family Festival</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" type="text/css" href="indi_v2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- js -->
+    <!--script src="indi_v2.js"></script-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script type="text/javascript" src="./emergency.js"></script>
+
+    <!-- font-->
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lobster|Comfortaa|Great+Vibes|Nanum+Pen+Script" rel="stylesheet">
+
+    <!--svg-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <!-- Modal -->
+        <div class="modal fade" id="buy-ticket" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-teal">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">BUY TICKETS</h5>
+                <button type="button" class="close red hidden-md-down" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <div class="row">
+                    <form>
+                      <div class="col-md-8">
+                        <div class="form-inline">
+                          <label for="phn" class="col-form-label">Phone Number:</label>
+                        <input type="text" pattern= "[789][0-9]{9}"  class="form-control bg-teal" id="phn">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-inline">
+                        <label for="phn" class="col-form-label">Phone Number:</label>
+                        <input type="text" pattern= "[789][0-9]{9}"  class="form-control bg-teal" id="phn">
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="form-group">
+                        <label for="email" class="col-form-label">Email:</label>
+                        <input type="email"  class="form-control bg-teal" id="email">
+                      </div>
+                    </div>
+                </form>
+              </div>
+            </div>
+              <div class="modal-footer">
+                <p class="pad">We will reach you soon.</p>
+                <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-success">CONFIRM</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--navbar-->
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"><img width="170" height="60" src="./images/indulge.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+              <!--li class="nav-item">
+                <a class="nav-link" id="countdown" href="#"></a>
+              </li-->
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#come">COME INDULGE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#wheelofindulge">WHEEL OF INDULGE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#partner">PARTNERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#founder">FOUNDER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT US</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#buy-ticket">BUY TICKETS</button>
+          </div>
+        </nav>
+      </div>
+
+  </div>
+    <!--My Jumbotron -->
+    <div class="container-fluid no">
+      <div class="jumbotron text-center no">
+        <h1 id="title"></h1>
+        <img width="330" height="150" src="./images/indulge.png" alt=""></a>
+        <h1 id="title2"> 27<sup>th</sup>, 28<sup>th</sup>, 29<sup>th</sup> April</h1>
+        <h1 id="title2"> MMRDA Ground, Mumbai</h1>
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#buy-ticket">Buy Tickets</button>
+      </div>
+    </div>
+
+    <!-- about us-->
+    <div class="container-fluid">
+      <div class="row lrpadding">
+        <div class="about" id="about">
+          <h2>ABOUT US</h2>
+          <div class="txt">
+            <p>Indulge is a multi dimensional festival that aims at bringing together the best of all worlds under one roof- the clear blue Sky of Mumbai. Aligned with the spirit of the city Indulge promises an unforgettable experience that satisfies all your senses- Sight, Sound, Smell, Taste & Feel. </p>
+          </div>
+        </div>
+      </div>
+      <div class="row lrpadding">
+        <div class="col-lg-3 col-md-3">
+          <div class="abt">
+            <i id="feel" class="material-icons">favorite_border</i>
+            <h3 id="ttl">Feel</h3>
+            <p id="txt1">With the smell of summer in the air alongwith foot tapping chill out/ relaxing/ jazz/reggae tunes we promise to lift your spirits and create priceless memories. <p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3">
+          <div class="abt">
+            <i id="fun" class="material-icons">mood</i>
+            <h3 id="ttl">Fun</h3>
+            <p id="txt1">We have a lot to keep you on toes as you Indulge in this celebration of life ,making sure you get high on happiness! <p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3">
+          <div class="abt">
+            <i id="taste" class="material-icons">local_bar</i>
+            <h3 id="ttl">Taste</h3>
+            <p id="txt1">Serving country's finest mouth watering food & desserts with an assurance of hygiene.</p>
+
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3">
+          <div class="abt">
+            <i id="music"class="material-icons">radio</i>
+            <h3 id="ttl">Music</h3>
+            <p id="txt1"> Experience the sounds of dynamic and multi genre artists guaranteed to get you grooving and jiving on your weekend of indulgence. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- come indulge-->
+    <div class="container-fluid no">
+        <div class="come lrpadding" id="come">
+          <h2>COME INDULGE</h2>
+
+          <div class="row dmargin">
+            <div class="col">
+              <div class="icome text-center">
+                <small>DATES </small> <br>
+                <i id="comesvg" class="material-icons">date_range</i>
+                <h4 id="ttl">27<sup>th</sup>, 28<sup>th</sup>, 29<sup>th</sup> April</h4>
+              </div>
+            </div>
+
+            <div class="col col-xs-12">
+              <div class="icome text-center">
+                <small>TIMING </small> <br>
+                <i id="comesvg" class="material-icons">access_time</i>
+                <h4 id="ttl">12:00 -22:00</h4>
+              </div>
+            </div>
+
+            <div class="col col-xs-12">
+              <div class="icome text-center">
+                <small>LOCATION </small> <br>
+                <i id="comesvg" class="material-icons">location_on</i>
+                <h4 id="ttl">MMRDA Ground,Mumbai</h4>
+              </div>
+            </div>
+
+            <div class="col col-xs-12">
+              <div class="icome text-center">
+                <small> FOOTFALL</small> <br>
+                  <i id="comesvg" class="material-icons">wc</i>
+                  <h4 id="ttl">30000 +</h4>
+                </div>
+              </div>
+
+              <div class="col col-xs-12">
+                <div class="icome text-center">
+                  <small>ENTRY FEE <small> <br>
+                    <i id="comesvg" class="material-icons">local_activity</i>
+                  <h4 id="ttl">200 ₹</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wheel Of Indulg-->
+        <div id="wheelofindulge">
+          <div class="container-fluid text-center">
+            <h2> WHEEL OF INDULGE</h2>
+            <div class="row">
+              <div class="col-lg-6 wheel">
+                <img class="wheel" src="./images/wheel.png" alt=""></a>
+              </div>
+              <div class="col-lg-6 txt-pad">
+                <h1 class="txt_booking pad"> STALL BOOKINGS </h1>
+                <h1 class="txt_booking pad"> NOW OPEN!</h1>
+                <button type="button" class="btn btn-outline-dark">KNOW MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+    <!--director words-->
+    <div class="founder lrpadding dmargin" id="founder">
+      <h2>FOUNDER</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 text-left dmargin">
+            <h5> About Founder </h5>
+            <p id="word">Sakshi has worked in the event industry for over 5 years in Delhi & Mumbai. She founded Resonate Events Private Limited in 2016. Throughout her career, she has been actively involved in the full spectrum of event management services including strategy creation, curation, brand management, promosions,event management & PR. Apart from event managemnt, Sakshi is an Actor & Writer and has acted in several shorts films & TV commercials after acquiring a degree in Acting from Whistling Woods International.  </p>
+            <h5> Founder's Message </h5>
+            <p id="word">Event management is an art that comes very naturally to me. I believe that my life's purpose involves serving others which led me to the idea of organising a festival that is an amalgamation of the best of everything and create a world of Indulgence that offers an escape from usual city life, a weekend that gets me high on Happiness. <br>
+            My vision with Indulge is to re-define the quality of Events/Festivals and explore opportunities to create something extra-ordinary.</p>
+            <div class="text-right">
+              <h5 class="text-right">-SAKSHI KAKKAR</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 dmargin text-center">
+            <img  height="440" padding-top="200px;" src="./images/founder.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- partner-->
+    <hr>
+    <div class="sponcer" id="partner" >
+      <h2>OUR PARTNERS</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-3">
+            <div class="spn text-center">
+              <img id="spon" src="./images/s2.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3">
+            <div class="spn text-center">
+              <img id="spon" src="./images/s1.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3">
+            <div class="spn text-center">
+              <img id="spon" src="./images/s3.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3">
+            <div class="spn text-center">
+              <img id="spon" src="./images/s4.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!--Count down-->
+    <!--Wheel Indulge-->
+    <!-- contact us-->
+    <div class="contact dmargin" id="contact">
+      <h2>GET IN TOUCH</h2>
+      <form action="mailto:vibhavshreshth12@gmail.com" method="post" enctype="text/plain">
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="phn">Phone Number</label>
+          <input type="number" class="form-control" id="phone" placeholder="Enter your phone number">
+        </div>
+        <div class="form-group">
+          <label for="textarea">Textarea</label>
+          <textarea class="form-control" id="comment" rows="3"></textarea>
+        </div>
+        <button type="button" id="submit" class="btn btn-outline-dark btn-lg btn-block">Submit</button>
+      </form>
+    </div>
+  <!--Association -->
+  <div class="asso">
+    <h2>FOR ASSOCIATION </h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 text-center ass">
+          <h5 class="teal">SAKSHI KAKKAR </h5>
+          <h5 class="teal1">9818432902</h5>
+        </div>
+        <div class="col-md-4 text-center ass">
+          <h5 class="teal">VIDHU PASRIJA</h5>
+          <h5 class="teal1">7506705780</h5>
+        </div>
+        <div class="col-md-4 text-center ass">
+          <h5 class="teal">UJWAL S. TALWAR </h5>
+          <h5 class="teal1">8652385708 </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="no">
+</body>
+<footer>
+    <div class="text-left">
+    <a href="https://www.facebook.com/bespoiltforchoice/" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://www.instagram.com/indulgefestival/" target="_blank" class="fa fa-instagram"></a>
+
+        <!--span class="text-right">
+            <a id="te" href="http://www.teematar.in" title=""><img id="tee" src="./images/tee.png"  alt=""></a>
+        </span>
+      </div-->
+</footer>
+</html>
